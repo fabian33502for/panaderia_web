@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pan artesanal horneado cada mañana en tu barrio.">
+  <title>Panadería Dulce Hogar</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="contenedor header__fila">
+      <a href="#inicio" class="logo">🥖 Dulce Hogar</a>
+      <button class="menu-boton" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="contenedor">
+        <h1>Panadería Dulce Hogar</h1>
+        <p>Pan artesanal horneado cada mañana en tu barrio.</p>
+        <a href="#productos" class="boton">Ver productos</a>
+      </div>
+    </section>
+
+    <section id="productos" class="seccion">
+      <div class="contenedor">
+        <h2>Nuestros productos</h2>
+        <img src="img/images1.jpg" alt="Pan de masa madre" class="tarjeta__foto">
+        <div class="tarjetas">
+          <article class="tarjeta">
+            <div class="tarjeta__icono">🍞</div>
+            <h3>Pan de masa madre</h3>
+            <p>Fermentación lenta de 24 horas y corteza crujiente.</p>
+            <p class="tarjeta__precio">$45</p>
+          </article>
+          <article class="tarjeta">
+            <div class="tarjeta__icono">🥐</div>
+            <h3>Cuernitos de mantequilla</h3>
+            <p>Hojaldrados y recién salidos del horno.</p>
+            <p class="tarjeta__precio">$18 c/u</p>
+          </article>
+          <article class="tarjeta">
+            <div class="tarjeta__icono">🎂</div>
+            <h3>Pasteles por encargo</h3>
+            <p>Para cumpleaños, bodas y toda ocasión especial.</p>
+            <p class="tarjeta__precio">Desde $350</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="seccion seccion--alterna">
+      <div class="contenedor centrado">
+        <h2>Nosotros</h2>
+        <p>Somos una panadería familiar. Desde hace más de 20 años horneamos cada día con harina de calidad, ingredientes naturales y recetas de la abuela.</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+      <div class="contenedor centrado">
+        <h2>Horario y contacto</h2>
+        <p id="estado" class="estado"></p>
+        <ul class="horario">
+          <li><span>Lunes a viernes</span><span>7:00 – 20:00</span></li>
+          <li><span>Sábado</span><span>7:00 – 15:00</span></li>
+          <li><span>Domingo</span><span>Cerrado</span></li>
+        </ul>
+        <p>📍 Calle Principal #123 · 📞 555-123-4567</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <p>&copy; 2026 Panadería Dulce Hogar</p>
+    </div>
+  </footer>
+</body>
+</html>
