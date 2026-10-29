@@ -25,5 +25,7 @@ let abierta = false;
 if (dia >= 1 && dia <= 5) abierta = hora >= 7 && hora < 20;
 if (dia === 6) abierta = hora >= 7 && hora < 15;
 
-aviso.textContent = abierta ? "🟢 Abierto ahora" : "🔴 Cerrado ahora";
-aviso.classList.add(abierta ? "estado--abierto" : "estado--cerrado");
+if (aviso) {
+  aviso.textContent = abierta ? "🟢 Abierto ahora" : "🔴 Cerrado ahora";
+  aviso.classList.add(abierta ? "estado--abierto" : "estado--cerrado");
+}
