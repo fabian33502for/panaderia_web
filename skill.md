@@ -8,7 +8,16 @@ description: Genera la estructura base de un sitio web estático (index.html,
 ---
 
 # Estructura web base
-
+---
+panaderia-web/
+├── index.html        ← el contenido de la página
+├── css/
+│   └── styles.css    ← el diseño (colores, tamaños, celular)
+├── js/
+│   └── main.js       ← menú del celular y aviso de abierto/cerrado
+├── img/              ← las fotos de los productos
+└── README.md         ← este archivo
+---
 ## Pasos
 1. Averigua el nombre del proyecto y de qué trata.
 2. Crea el árbol: index.html, css/styles.css, js/main.js, img/, README.md.
